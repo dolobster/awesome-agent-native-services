@@ -11,7 +11,7 @@
     "service_directory": "services",
     "content_digest": {
       "algorithm": "sha256",
-      "value": "2f63977cabfc41c7dd7cabf8d17dec2ac973d4bdbd21e413f1e9cbc941ca5da9",
+      "value": "5945586230a236ecd20102ad38602e730d44fe274741ae3588a898825364d9f2",
       "input_paths": [
         "README.md",
         "skill.md",
@@ -151,6 +151,7 @@
         "services/agent-runtime-and-infrastructure/scrapybara.md",
         "services/agent-runtime-and-infrastructure/serena.md",
         "services/agent-runtime-and-infrastructure/uta-trust-api.md",
+        "services/agent-runtime-and-infrastructure/vectoree.md",
         "services/agent-runtime-and-infrastructure/vertex-ai-agent-engine.md",
         "services/agent-harnesses-and-control-planes/README.md",
         "services/agent-harnesses-and-control-planes/agent-qa.md",
@@ -302,7 +303,7 @@
   },
   "counts": {
     "categories": 16,
-    "services": 266
+    "services": 267
   },
   "categories": [
     {
@@ -345,7 +346,7 @@
       "name": "Agent Runtime & Infrastructure",
       "description": "Services that provide the secure deployment substrate, session isolation, secret management, identity, gateway, and observability required to run AI agents reliably in production — the \"operating system layer\" for autonomous agents.",
       "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/README.md",
-      "service_count": 35
+      "service_count": 36
     },
     {
       "id": "agent-harnesses-and-control-planes",
@@ -4582,6 +4583,39 @@
       ],
       "mcp_status": "unavailable",
       "agent_skill_status": "unavailable",
+      "latest_month_signal": null,
+      "verified_at": null,
+      "verification_sources": []
+    },
+    {
+      "id": "agent-runtime-and-infrastructure/vectoree",
+      "slug": "vectoree",
+      "name": "Vectoree",
+      "tagline": "Give your coding agent a backend.",
+      "classification": "agent-native",
+      "status": "listed",
+      "lifecycle_status": "unknown",
+      "category": "agent-runtime-and-infrastructure",
+      "website": "https://vectoree.ai",
+      "repository": "https://github.com/VectoreeAI/vectoree-skills",
+      "dossier": "https://github.com/haoruilee/awesome-agent-native-services/blob/main/services/agent-runtime-and-infrastructure/vectoree.md",
+      "source_path": "services/agent-runtime-and-infrastructure/vectoree.md",
+      "onboarding": {
+        "type": "url",
+        "pattern": "URL Onboarding ⭐ — the highest tier of agent-nativeness.",
+        "instruction": "Read https://vectoree.ai/SKILL.md and follow the instructions to connect this project.",
+        "url": "https://vectoree.ai/SKILL.md"
+      },
+      "protocols": [
+        "url-onboarding",
+        "agent-skill",
+        "mcp",
+        "cli",
+        "http",
+        "api"
+      ],
+      "mcp_status": "available",
+      "agent_skill_status": "available",
       "latest_month_signal": null,
       "verified_at": null,
       "verification_sources": []
